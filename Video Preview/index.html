@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Video Lab</title>
+</head>
+<body>
+    <div class="nav1">
+        <nav class="nav-bar">
+            <h1>Video Lab</h1>
+            <input type="text" name="search" placeholder="search">
+            <button class="button1">Login</button>
+        </nav>
+    </div>
+
+    <main>
+        <div class="main">
+
+           <div class="video-header">
+            <div class="left">
+                <video onmouseover="playVideo(this)" onmouseout="pauseVideo(this)"
+                class="video1" src="/videos/Pexels Videos 1414757.mp4"></video>
+                <div class="video-body">
+                    <div class="video-body2">
+                        <p class="p1" >Example Video Title</p>
+                        <p class="p2">1.3k views | June 18, 2021</p>
+                        <div class="user">
+                            <img src="/img/account.png" alt="user-circle" class="avatar-s">
+                            <span class="user-name">Example User Name</span>
+                        </div>
+                    </div>
+                    <div class="button2">
+                        <button> Subscribe</button>
+                    </div>
+                </div>
+           
+            </div>
+            
+            <div class="right">
+                <h2 class="up">Up Next</h2>
+                <div class="vid">
+            <div class="vid2">
+                <img class="img" src="/img/video-player.png"></i>
+                <p class="p3">Not a Rick Roll</p>
+            </div>
+            <div  class="vid2">
+                <img class="img" src="/img/video-player.png"></img>
+                <p class="p3">10 Facts About <br>
+                 ET's Cat</p>
+            </div>
+            <div class="vid2">
+                <img class="img" src="/img/video-player.png"></img>
+                <p class="p3">5 Cosplay Tips</p>
+            </div>
+            <div class="vid2">
+                    <img class="img" src="/img/video-player.png"></img>
+                    <p class="p3">Boy Battles <br>
+                    Dinobot in <br>
+                    Thundersome</p>
+                </div>
+            </div>
+        </div>
+           </div>
+        </div>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>
